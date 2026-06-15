@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tejaswi Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+nav{
+    background:#222;
+    padding:15px;
+    position:sticky;
+    top:0;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav ul li{
+    margin:0 15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:#00bcd4;
+}
+
+.hero{
+    height:100vh;
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:3rem;
+}
+
+.hero p{
+    margin:15px 0;
+    font-size:1.2rem;
+}
+
+.btn{
+    padding:12px 25px;
+    background:#00bcd4;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#0097a7;
+}
+
+section{
+    padding:60px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.skills,
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:2rem;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <h1>Hi, I'm Tejaswi</h1>
+    <p>Computer Science Student & Web Developer</p>
+    <a href="#contact" class="btn">Contact Me</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p style="text-align:center;">
+        I am a Computer Science student passionate about Web Development,
+        Java Programming, and creating responsive websites.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+        <div class="card">Java</div>
+        <div class="card">Python</div>
+        <div class="card">SQL</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>Calculator App</h3>
+            <p>Responsive Calculator using HTML, CSS and JavaScript.</p>
+        </div>
+
+        <div class="card">
+            <h3>Image Gallery</h3>
+            <p>Interactive Gallery with filtering and lightbox.</p>
+        </div>
+
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>Personal Portfolio showcasing skills and projects.</p>
+        </div>
+    </div>
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+    <div style="text-align:center;">
+        <a href="resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: teajswivallepi@gmail.com</p>
+    <p>Phone: +91 9966032770</p>
+    <p>LinkedIn: linkedin.com/in/tejaswivallepi</p>
+    <p>GitHub: github.com/tejaswivallepi</p>
+</section>
+
+<footer>
+    <p>© 2025 Tejaswi Portfolio. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
