@@ -1,6 +1,14 @@
 # CodAlpha--Frontend-Developement-Task-3
 # Personal Portfolio Website
+Name:Vallepi.Tejaswi
 
+Company:CodAlpha
+
+ID:CA/DFI/134962
+
+Duration:10th june 2026 to 10th july 2026
+
+Domain:Fronted-Developement
 ## Overview
 
 This project is a responsive Personal Portfolio Website developed using HTML and CSS. The website serves as a professional online portfolio to showcase personal information, technical skills, projects, resume, and contact details. It is designed with a clean and modern user interface that works smoothly across desktop and mobile devices.
@@ -50,3 +58,8 @@ Through this project, I gained practical experience in:
 ## Conclusion
 
 This portfolio website demonstrates fundamental front-end web development skills and responsive design principles. It provides a professional platform for presenting personal achievements, technical skills, and project work while ensuring accessibility across various devices.
+## Output:
+
+
+https://github.com/user-attachments/assets/65e4d5e5-80f4-4538-bc4a-7a9aa621af7e
+
